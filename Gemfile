@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 gemspec
 
-gem 'activesupport', '~> 3.2.0'
-gem 'activemodel',   '~> 3.2.0'
+gem 'activesupport', '>= 3.2.0'
+gem 'activemodel',   '>= 3.2.0'
 gem 'rake',          '~> 0.9.0'
 gem 'oj',            '~> 1.0.0'
-gem 'multi_json',    '~> 1.3.2'
+gem 'multi_json',    '~> 1.7.3'
 gem 'metriks', :require => false
 gem 'statsd-ruby', :require => false
 
