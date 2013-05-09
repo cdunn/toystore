@@ -50,7 +50,7 @@ module Toy
   autoload 'Equality',                'toy/equality'
   autoload 'Inspect',                 'toy/inspect'
   autoload 'Inheritance',             'toy/inheritance'
-  #autoload 'MassAssignmentSecurity',  'toy/mass_assignment_security' unless defined?(ActiveModel::MassAssignmentSecurity)
+  autoload 'MassAssignmentSecurity',  'toy/mass_assignment_security' unless defined?(ActiveModel::MassAssignmentSecurity)
   autoload 'Persistence',             'toy/persistence'
   autoload 'Querying',                'toy/querying'
   autoload 'Reloadable',              'toy/reloadable'
